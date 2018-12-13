@@ -12,7 +12,7 @@ async function asFunc() {
         console.log(country);
     }, 7000);
 }
-
+let pagesArr = ['Home', 'Contacts', 'About'];
 let contactList = $('#contact-list');
 console.log(contactList);
 
