@@ -1,0 +1,123 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    font-family: Lato sans-serif;
+    font-size: 1.5em;
+    color: #3c6180;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    padding: 30px;
+    background: url("images/background.jpg") center no-repeat;
+}
+
+body > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+li a {
+    float: left;
+    color: #006a;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+li a:hover {
+    color: #0098ee;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+footer {
+    background-color: #224364;
+    color: #e7e7e7;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: -180px;
+    left: -25px;
+}
+
+.info {
+    text-align: center;
+    display: block;
+    float: left;
+    color: #0191f2;
+    margin: 15px;
+    width: 350px;
+    height: 350px;
+    border: solid #80b3ff 1px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: solid #80b3ff 3px;
+}
+
+.location iframe{
+    margin: 15px;
+    width: 350px;
+    height: 350px;
+    float: right;
+    display: block;
+    border: solid #80b3ff 1px;
+}
+
+.location i {
+    color: #006a;
+    transition: all linear 0.5s;
+}
+
+.location i:hover {
+    color: #0191f2;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .box img {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media all and (min-width: 800px) {
+
+    div.info {
+        order: 1;
+    }
+
+    div.location {
+        order: 2;
+    }
+
+    footer {
+        order: 3;
+    }
+}
