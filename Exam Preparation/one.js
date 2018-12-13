@@ -13,4 +13,7 @@ async function asFunc() {
     }, 7000);
 }
 
+let contactList = $('#contact-list');
+console.log(contactList);
+
 asFunc();
