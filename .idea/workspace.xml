@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="Commit on 13.12.2018. Added headers and navigation to all of the html files.">
-      <change beforePath="$PROJECT_DIR$/.idea/html5-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Project/.idea/Web Project.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Project/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Web Project/.idea/misc.xml" beforeDir="false" />
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/one.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="14" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="575">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -74,20 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="345">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/one.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="153">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -116,10 +114,10 @@
         <option value="$PROJECT_DIR$/Exam Preparation/person.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/one.scss" />
         <option value="$PROJECT_DIR$/Exam Preparation/one.html" />
-        <option value="$PROJECT_DIR$/Exam Preparation/one.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/contacts.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/about.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/home.html" />
+        <option value="$PROJECT_DIR$/Exam Preparation/one.js" />
       </list>
     </option>
   </component>
@@ -136,7 +134,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-23" />
     <option name="y" value="-23" />
     <option name="width" value="1952" />
@@ -150,8 +148,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +224,7 @@
       <workItem from="1544703358155" duration="4455000" />
       <workItem from="1544710299395" duration="1538000" />
       <workItem from="1544712430200" duration="22000" />
+      <workItem from="1544712482219" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -245,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544710727294</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit on 13.12.2018. No major changes.">
+      <created>1544712591783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544712591783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16159000" />
+    <option name="totallyTimeSpent" value="17474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,6 +278,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="3221" height="1778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939248" visible="true" weight="0.17624882" />
       <window_info id="TODO" order="1" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
@@ -334,7 +351,8 @@
     <MESSAGE value="Commit on 13.12.2018. Added new html files and changed the main html file." />
     <MESSAGE value="Commit on 13.12.2018. Changed the contacts.html file." />
     <MESSAGE value="Commit on 13.12.2018. Added headers and navigation to all of the html files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 13.12.2018. Added headers and navigation to all of the html files." />
+    <MESSAGE value="Commit on 13.12.2018. No major changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 13.12.2018. No major changes." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -350,17 +368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/one.html">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="14" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -371,17 +382,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/one.js">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="414">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/home.html">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/one.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="575">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
