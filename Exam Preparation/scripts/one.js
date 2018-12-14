@@ -1,19 +1,19 @@
-function person(personName, personAge) {
-    return console.log(`The person's name is ${personName} and is ${personAge} years old.`);
-}
+"use strict";
 
-let personOne = new person("Zak Nikolov", 24);
+let oneMainHeader = $("#one-main-header").value;
+let oneHomeLink = $("#one-home");
+let oneContactsLink = $("#one-contacts");
+let oneAboutLink = $("#one-about");
 
-async function asFunc() {
-    await person(personOne);
+let contactsHomeLink = $("#contacts-home");
+let contactsContactsLink = $("#contacts-contacts");
+let contactsAboutLink = $("#contacts-about");
 
-    setTimeout(country => {
-        country = 'Bulgaria';
-        console.log(country);
-    }, 7000);
-}
-let pagesArr = ['Home', 'Contacts', 'About'];
-let contactList = $('#contact-list');
-console.log(contactList);
+let aboutHomeLink = $("#about-home");
+let aboutContactsLink = $("#about-contacts");
+let aboutAboutLink = $("#about-about");
 
-asFunc();
+console.log(oneMainHeader);
+console.log(oneHomeLink);
+console.log(oneContactsLink);
+console.log(oneAboutLink);
