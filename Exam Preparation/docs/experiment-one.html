@@ -5,10 +5,76 @@
     <title>Converting a website to HTML5</title>
 
     <script>
-        window.onload = function() {
+
+        window.onload = function () {
             let outerDiv = document.getElementById('outerDiv');
-            console.log(outerDiv.innerHTML);
-        }
+            return outerDiv;
+        };
+
+        window.onload = function () {
+            let paragraphs = document.getElementsByTagName('p');
+            console.log(paragraphs.length);
+        };
+
+        window.onload = function () {
+            let paragraphsClass = document.getElementsByClassName('subPara');
+            console.log(`<p> elements with class subPara : ${paragraphsClass.length}`);
+        };
+
+        window.onload = function () {
+            let allParagraphs = document.querySelectorAll('p');
+            let outerDiv = document.querySelector('#outerDiv');
+            let innerDiv = document.querySelector('#innerDiv');
+
+            console.log('All paragraphs: ' + allParagraphs);
+            console.log('Outer div: ' + outerDiv);
+            console.log('Inner div: ' + innerDiv);
+        };
+
+        window.onload = function () {
+            let outerDivNew = document.getElementById('outerDiv');
+            let innerDivNew = document.getElementById('innerDiv');
+
+            // let articleElement = document.createElement('article');
+            // articleElement.innerText = 'Valar Morghulis';
+            // outerDivNew.appendChild(articleElement);
+            // console.log(articleElement);
+
+            // document.removeChild(articleElement);
+            // let afterRemove = document.getElementsByTagName('article');
+            //
+            // console.log(afterRemove);
+
+            // let element = outerDivNew.insertBefore(
+            //     document.createElement('article'),
+            //     document.getElementById('innerDiv')
+            // );
+
+            let element = innerDivNew.insertBefore(
+                document.createElement('article'),
+                innerDivNew.firstChild
+            );
+
+            element.innerText = 'My new <article> element';
+            console.log(element);
+
+            // let p1 = innerDivNew.removeChild(document.getElementById('P1'));
+            // console.log(p1);
+
+            //innerDivNew.remove();
+
+            let newDiv = document.createElement('div');
+
+            for(let i = 0; i < innerDivNew.childNodes.length; i++){
+                let anchor = newDiv.appendChild(document.createElement('a'));
+                anchor.setAttribute('href', 'http://www.bing.ca');
+                anchor.text = innerDivNew.childNodes[i].textContent;
+                newDiv.appendChild(document.createElement('br'));
+            }
+
+            innerDivNew.replaceWith(newDiv);
+        };
+
     </script>
 
 </head>
@@ -26,10 +92,10 @@
         </ul>
 
         <div id="innerDiv">
-            <p class="subPara">Paragraph 1</p>
-            <p class="subPara">Paragraph 2</p>
-            <p class="subPara">Paragraph 3</p>
-            <p class="subPara">Paragraph 4</p>
+            <p id="P1" class="subPara">Paragraph 1</p>
+            <p id="P2" class="subPara">Paragraph 2</p>
+            <p id="P3" class="subPara">Paragraph 3</p>
+            <p id="P4" class="subPara">Paragraph 4</p>
         </div>
 
         <table>

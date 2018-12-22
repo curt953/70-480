@@ -5,7 +5,18 @@
     <title>HTML One</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="../scripts/one.js"></script>
-    <link rel="stylesheet" href="../styles/one.scss">
+    <link rel="stylesheet" href="../styles/one.css">
+    <script>
+        function Red(evt) {
+            let circle = evt.target;
+            circle.setAttribute('style', 'fill: red');
+        }
+
+        function Green(evt) {
+            let circle = evt.target;
+            circle.setAttribute('style', 'fill: green');
+        }
+    </script>
 </head>
 
 <body>
@@ -23,6 +34,81 @@
         </nav>
 
     </header>
+
+    <article>
+
+        <section>
+
+            <h1>SVG Section</h1>
+
+            <!--<svg>
+                <circle
+                        id="Circle"
+                        cx="50"
+                        cy="50"
+                        r="50"
+                        fill="green"
+                        onmouseover="Red(evt)"
+                        onmouseout="Green(evt)">
+                </circle>
+            </svg>-->
+
+            <svg>
+                <rect id="lightStand" x="100" y="100" width="60" height="200" fill="black"></rect>
+                <circle id="greenLight" cx="129" cy="145" r="25" fill="green"></circle>
+                <circle id="yellowLight" cx="129" cy="205" r="25" fill="yellow"></circle>
+                <circle id="redLight" cx="129" cy="265" r="25" fill="red"></circle>
+            </svg>
+
+            <svg>
+                <polygon points="10, 15 30,35 10, 85 100, 85, 70, 35, 100, 15" fill="purple"></polygon>
+                <polygon points="10, 150 30, 170 50, 132 62, 196 78, 165 96, 170" style="stroke: orange; stroke-width: 5px;" fill="none"></polygon>
+                <line x1="150" y1="100" x2="150" y2="150" style="stroke: blue;stroke-width: 3px;"></line>
+                <ellipse cx="250" cy="150" rx="30" ry="55" fill="green"></ellipse>
+                <text x="10" y="10" style="stroke: black; stroke-width: 1px;">Examples of SVG Shapes and Text</text>
+            </svg>
+
+        </section>
+
+        <section>
+
+            <h1>Canvas Section</h1>
+
+            <!--<canvas
+                    id="drawing-surface"
+                    width="600"
+                    height="400">
+                Your browser does not support HTML5.
+            </canvas>-->
+
+        </section>
+
+        <section>
+
+            <h1>Video and Audio Section</h1>
+
+            <!--<video id="sample-video"
+                   controls
+                   height="400"
+                   width="600"
+                   poster="../images/image-one.jpg">
+                <source src="../media/video.ogv" type="video/ogg" />
+                <source src="../media/video.mp4" type="audio/mp4" />
+                <object data="" type="">
+                    <p>Video is not supported by this browser.</p>
+                </object>
+            </video>
+
+
+            <audio controls>
+                <source src="../media/sample-track.mp3" type="audio/mp3" />
+                <p>Your browser does not support HTML5 audio.</p>
+            </audio>-->
+
+        </section>
+
+
+    </article>
 
     <article>
 

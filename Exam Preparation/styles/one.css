@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+svg{
+    width: 420px;
+    height: 420px;
+    margin-bottom: 100px;
+}
