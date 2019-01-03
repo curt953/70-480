@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second practice HTML document</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        img {
+            height: 150px;
+            width: 225px;
+        }
+        .trans {
+            /*transform: rotate(90deg);*/
+            /*transform: translate(50px, 0px);*/
+            /*transform: skew(10deg, 10deg);*/
+            transform: scale(1.5);
+        }
+    </style>
+    <script>
+        /* This code changes the position of images in the html programmatically;
+        window.onload = function () {
+            let top = document.getElementById('topText');
+            let left = document.getElementById('leftText');
+            let pos = document.getElementById('positioning');
+
+            document.getElementById('btnPosition').onclick = function () {
+                let img = document.getElementById('pictureOne');
+                img.style.position = pos.value;
+                img.style.left = left.value + 'px';
+                img.style.top = top.value + 'px';
+            };
+        };
+        */
+
+        ///* This code applies css transform methods to a image element
+        window.onload = function () {
+            document.getElementById('pictureOne').onclick = function () {
+                this.classList.add('trans');
+            };
+        };
+        //*/
+
+        // window.onload = function () {
+        //
+        // };
+
+    </script>
+</head>
+<body>
+
+<!-- Table containing two images and input fields to change their css positioning
+<table style="width: 100%; height: 100%; border: 1px solid black;">
+
+    <tr>
+
+        <td style="vertical-align: top; width: 80%;">
+            <img id="pictureOne" src="../images/image-one.jpg" alt="Here should be picture one.">
+            <img id="pictureTwo" src="../images/image-one.jpg" alt="Here should be picture two.">
+        </td>
+
+        <td style="vertical-align: top;">
+
+            <label>
+                Left: <input type="text" id="leftText" />
+            </label>
+
+            <br />
+
+            <label>
+                Top: <input type="text" id="topText" />
+            </label>
+
+            <br/>
+
+            <label>
+                Position:
+                <select id="positioning">
+                    <option>relative</option>
+                    <option>absolute</option>
+                </select>
+            </label>
+
+            <br/>
+
+            <label>
+                <input type="button" id="btnPosition" value="Update" />
+            </label>
+
+        </td>
+
+    </tr>
+
+</table>
+-->
+
+    <img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
+
+</body>
+</html>
