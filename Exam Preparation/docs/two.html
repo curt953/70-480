@@ -12,12 +12,14 @@
             height: 150px;
             width: 225px;
         }
-        .trans {
-            /*transform: rotate(90deg);*/
-            /*transform: translate(50px, 0px);*/
-            /*transform: skew(10deg, 10deg);*/
+        /*.trans {
+            transform: rotate(90deg);
+            transform: translate(50px, 0px);
+            transform: skew(10deg, 10deg);
             transform: scale(1.5);
+            transform: translate(50px, 0px) scale(1.5) skew(10deg, 10deg);
         }
+        */
     </style>
     <script>
         /* This code changes the position of images in the html programmatically;
@@ -35,17 +37,24 @@
         };
         */
 
-        ///* This code applies css transform methods to a image element
+        /* This code applies css transform methods to a image element
         window.onload = function () {
             document.getElementById('pictureOne').onclick = function () {
                 this.classList.add('trans');
             };
         };
-        //*/
+        */
 
-        // window.onload = function () {
-        //
-        // };
+        window.onload = function () {
+            document.getElementById('btnHideAnElement').onclick = function () {
+                if (document.getElementById('innerDiv').style.display === 'inline') {
+                    document.getElementById('innerDiv').style.display = 'none';
+                }
+                else {
+                    document.getElementById('innerDiv').style.display = 'inline';
+                }
+            };
+        };
 
     </script>
 </head>
@@ -96,7 +105,10 @@
 </table>
 -->
 
-    <img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
+<!--<img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">-->
+
+    <div id="innerDiv">Valar Morghulis</div>
+    <button type="button" id="btnHideAnElement">Show/Hide Element</button>
 
 </body>
 </html>
