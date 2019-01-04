@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment III</title>
+    <script>
+        window.onload = function () {
+            let question1 = document.getElementById('Question1');
+            let question2 = document.getElementById('Question2');
+            let question3 = document.getElementById('Question3');
+            let question4 = document.getElementById('Question4');
+            let question5 = document.getElementById('Question5');
+            let question6 = document.getElementById('Question6');
+            let question7 = document.getElementById('Question7');
+            let question8 = document.getElementById('Question8');
+            let question9 = document.getElementById('Question9');
+            let question10 = document.getElementById('Question10');
+
+            if (question1.innerText === 'Yes') {
+                question2.style.visibility = 'visible';
+                question3.style.visibility = 'hidden';
+            }
+            else if (question2.innerText === 'Yes') {
+                question4.style.visibility = 'visible';
+                question5.style.visibility = 'hidden';
+            }
+            else if (question6.innerText === 'No') {
+                question7.style.display = 'none';
+                question8.style.visibility = 'visible';
+            }
+            else {
+                question9.style.display = 'block';
+                question10.style.display = 'block';
+            }
+        };
+    </script>
+</head>
+<body>
+
+    <header>
+        A dynamic Questionnaire.
+    </header>
+
+    <section>
+        <article>
+            <hgroup>
+                <h1>Questionnaire</h1>
+                <h2>Answer the questions in order as they appear</h2>
+            </hgroup>
+
+            <div id="Question1">
+                Yes
+            </div>
+
+            <div id="Question2">
+                Yes
+            </div>
+
+            <div id="Question3">
+                Yes
+            </div>
+
+            <div id="Question4">
+                Yes
+            </div>
+
+            <div id="Question5">
+                No
+            </div>
+
+            <div id="Question6">
+                No
+            </div>
+
+            <div id="Question7">
+                No
+            </div>
+
+            <div id="Question8">
+                No
+            </div>
+
+            <div id="Question9">
+                No
+            </div>
+
+            <div id="Question10">
+                No
+            </div>
+
+        </article>
+    </section>
+
+</body>
+</html>

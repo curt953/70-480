@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html manifest="webApp.appcache" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Second practice HTML document</title>
@@ -12,12 +12,17 @@
             height: 150px;
             width: 225px;
         }
-        .trans {
-            /*transform: rotate(90deg);*/
-            /*transform: translate(50px, 0px);*/
-            /*transform: skew(10deg, 10deg);*/
-            transform: scale(1.5);
+        section {
+            margin-top: 15px;
         }
+        /*.trans {
+            transform: rotate(90deg);
+            transform: translate(50px, 0px);
+            transform: skew(10deg, 10deg);
+            transform: scale(1.5);
+            transform: translate(50px, 0px) scale(1.5) skew(10deg, 10deg);
+        }
+        */
     </style>
     <script>
         /* This code changes the position of images in the html programmatically;
@@ -35,17 +40,111 @@
         };
         */
 
-        ///* This code applies css transform methods to a image element
+        /* This code applies css transform methods to a image element
         window.onload = function () {
             document.getElementById('pictureOne').onclick = function () {
                 this.classList.add('trans');
             };
         };
-        //*/
+        */
 
-        // window.onload = function () {
-        //
-        // };
+        /* This code changes the visibility of a div element
+        window.onload = function () {
+            document.getElementById('btnHideAnElement').onclick = function () {
+                if (document.getElementById('innerDiv').style.display === 'inline') {
+                    document.getElementById('innerDiv').style.display = 'none';
+                }
+                else {
+                    document.getElementById('innerDiv').style.display = 'inline';
+                }
+            };
+        };
+        */
+
+        /* This code uses the localStorage to store values from HTML elements
+        window.onload = function () {
+
+            let customer = new Object();
+            customer.firstName = 'Svilen';
+            customer.lastName = 'Nikolov';
+            customer.shirtSize = 'M';
+            localStorage.setItem('cart1', JSON.stringify(customer));
+
+            LoadFromStorage();
+
+            document.getElementById('btnAdd').onclick = function () {
+                localStorage.setItem(document.getElementById('toStorageKey').value,
+                document.getElementById('toStorageValue').value);
+                LoadFromStorage();
+            };
+
+            document.getElementById('btnRemove').onclick = function () {
+                localStorage.removeItem(document.getElementById('toStorageKey').value);
+                LoadFromStorage();
+            };
+
+            document.getElementById('btnClear').onclick = function() {
+                localStorage.clear();
+                LoadFromStorage();
+            };
+
+            function LoadFromStorage() {
+                let storageDiv = document.getElementById('storage');
+                let table = document.createElement('table');
+                table.id = 'storageTable';
+
+                if (localStorage.lenght > 0) {
+                    for(let i = 0; i < localStorage.length; i++){
+                       let row = document.createElement('tr');
+                       let key = document.createElement('td');
+                       let value = document.createElement('td');
+
+                       key.innerText = localStorage.key(i);
+                       value.innerText = localStorage.getItem(key.innerText);
+                       row.appendChild(key);
+                       row.appendChild(value);
+                       table.appendChild(row);
+                    }
+                }
+                else {
+                    let row = document.createElement('tr');
+                    let column = document.createElement('td');
+
+                    column.innerText = 'No data in local storage.';
+                    row.appendChild(column);
+                    table.appendChild(row);
+                }
+
+                if (document.getElementById('storageTable')) {
+                    document.getElementById('storageTable').replaceWith(table);
+                }
+                else {
+                    storageDiv.appendChild(table);
+                }
+            }
+        };
+        */
+
+        //This code shows the current GPS location of the PC on which is written
+        window.onload = function () {
+            let geoLocator = window.navigator.geolocation;
+            let posOptions = {
+                enableHighAccuracy: true,
+                timeout: 45000
+            };
+
+            geoLocator.getCurrentPosition(successPosition, errorPosition, posOptions);
+
+            function successPosition(pos) {
+                let sp = document.createElement('p');
+                sp.innerText = 'Latitude: ' + pos.coords.latitude + '\n Longitude: ' + pos.coords.longitude;
+                document.getElementById('geoResults').appendChild(sp);
+            }
+            
+            function errorPosition(pos) {
+                console.log(pos);
+            }
+        };
 
     </script>
 </head>
@@ -96,7 +195,40 @@
 </table>
 -->
 
-    <img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
+<!--<img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
+    <div id="innerDiv">Valar Morghulis</div>
+    <button type="button" id="btnHideAnElement">Show/Hide Element</button>-->
+
+<!--    <section>
+
+        <label>
+            Key: <input type="text" id="toStorageKey" />
+        </label>
+
+        <label>
+            Value: <input type="text" id="toStorageValue" />
+        </label>
+
+    </section>
+
+    <section>
+
+        <button type="button" id="btnAdd">Add To Storage</button>
+
+        <button type="button" id="btnRemove">Remove From Storage</button>
+
+        <button type="button" id="btnClear">Clear Storage</button>
+
+    </section>
+
+    <div id="storage">
+        <p>Current Storage Contents</p>
+    </div>
+-->
+
+    <div id="geoResults">
+        <p>Current Location is: </p>
+    </div>
 
 </body>
 </html>
