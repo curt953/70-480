@@ -181,8 +181,4 @@ window.onload = function () {
         context.fillText('5. Text with altered coloured font Centered', 100, 200);
     }
 */
-
-
-
-
 };

@@ -195,6 +195,7 @@
         };
         */
 
+        /* This code explains the different JS object's assignment
         var com = {};
         com.Bookstore = {};
 
@@ -208,6 +209,111 @@
             lastName: 'Martin'
         };
 
+        let num = new Number(5);
+        let txt = new String('my long string');
+
+        let index = txt.indexOf('long', 0);
+        let exp = num.toExponential(5);
+        let book = {
+            ISBN: '5555555',
+            Length: 560,
+            Genre: 'Web Programming',
+            Covering: 'Software Development',
+            Author: 'Svilen Nikolov',
+            currentPage: 5,
+            Title: 'Programming in HTML5 with JavaScript and CSS3',
+            flipTo: function flipToPage(pNum) {
+                this.currentPage = pNum;
+            },
+            turnPageForward: function turnForward() {
+                this.flipTo(this.currentPage++);
+            },
+            turnPageBackward: function turnBackward() {
+                this.flipTo(this.currentPage--);
+            }
+        };
+
+
+        function Book(title, length, author) {
+            this.title = title;
+            this.length = length;
+            this.author = author;
+        }
+
+        Book.prototype =  {
+            ISBN: '',
+            length: -1,
+            genre: '',
+            covering: '',
+            author: '',
+            currentPage: 0,
+            title: '',
+
+            flipTo: function FlipToAPage(pNum) {
+                this.currentPage = pNum;
+            },
+
+            turnPageForward: function turnForward() {
+                this.flipTo(this.currentPage++);
+            },
+
+            turnPageBackward: function turnBackward() {
+                this.flipTo(this.currentPage--);
+            }
+        };
+
+        function Author() {
+
+        }
+
+        function Author(firstName, lastName, gender) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.gender = gender;
+        }
+
+        Author.prototype = {
+            firstName: '',
+            lastName: '',
+            gender: '',
+            bookCount: 0
+        };
+
+        let books = new Array(new Book('786464186', 777, 'FUCK'), new Author('Svilen', 'Nikolov', 'M'), new Book());
+        console.log(books[0].length, '\n', books[1].firstName);
+
+
+        function Book() {}
+
+        Book.prototype =  {
+            ISBN: '',
+            length: -1,
+            genre: '',
+            covering: '',
+            author: '',
+            currentPage: 0,
+            title: '',
+
+            flipTo: function FlipToAPage(pNum) {
+                this.currentPage = pNum;
+            },
+
+            turnPageForward: function turnForward() {
+                this.flipTo(this.currentPage++);
+            },
+
+            turnPageBackward: function turnBackward() {
+                this.flipTo(this.currentPage--);
+            }
+        };
+
+        let popupBook = Object.create(Book.prototype, {
+            hasSound: {value: true},
+            showPopUp: {value: function () {
+                Book.call(this)
+            }}
+        })
+        */
     </script>
 </head>
 <body>
