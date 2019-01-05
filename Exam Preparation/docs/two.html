@@ -15,6 +15,11 @@
         section {
             margin-top: 15px;
         }
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000000;
+        }
         /*.trans {
             transform: rotate(90deg);
             transform: translate(50px, 0px);
@@ -93,7 +98,7 @@
                 let table = document.createElement('table');
                 table.id = 'storageTable';
 
-                if (localStorage.lenght > 0) {
+                if (localStorage.length > 0) {
                     for(let i = 0; i < localStorage.length; i++){
                        let row = document.createElement('tr');
                        let key = document.createElement('td');
@@ -125,25 +130,82 @@
         };
         */
 
-        //This code shows the current GPS location of the PC on which is written
+        /* This code shows the current GPS location of the PC on which is written
+        let geoLocator;
+        let watcher;
+
         window.onload = function () {
-            let geoLocator = window.navigator.geolocation;
+            geoLocator = window.navigator.geolocation;
             let posOptions = {
                 enableHighAccuracy: true,
                 timeout: 45000
             };
-
-            geoLocator.getCurrentPosition(successPosition, errorPosition, posOptions);
+            watcher = geoLocator.watchPosition(successPosition, errorPosition, posOptions);
 
             function successPosition(pos) {
                 let sp = document.createElement('p');
                 sp.innerText = 'Latitude: ' + pos.coords.latitude + '\n Longitude: ' + pos.coords.longitude;
                 document.getElementById('geoResults').appendChild(sp);
+                geoLocator.clearWatch(watcher);
             }
             
-            function errorPosition(pos) {
-                console.log(pos);
+            function errorPosition(err) {
+                let sp = document.createElement('p');
+                sp.innerText = 'Error: ' + err.message + ', code: ' + err.code;
+                document.getElementById('geoResults').appendChild(err);
             }
+        };
+        */
+
+        /* This code explains the different JS scopes
+        var globalVar = 'global';
+
+        window.onload = function () {
+            var localVar = 'local';
+
+            document.getElementById('Div1').onclick = function () {
+                var insideDiv1Click = 'insideDiv1';
+                alert(globalVar);
+                alert(localVar);
+                alert(insideDiv1Click);
+            };
+
+            document.getElementById('Div2').onclick = function () {
+                alert(globalVar);
+                alert(localVar);
+                alert(insideDiv1Click);
+            };
+
+            document.getElementById('Div3').onclick = function () {
+                var insideDiv3 = 'Div3';
+                AFunction();
+                BFunctionWithParam(insideDiv3);
+            };
+
+            function AFunction() {
+                var x;
+                alert(insideDiv3);
+            }
+
+            function BFunctionWithParam(p) {
+                alert(p);
+                alert(localVar);
+            }
+
+        };
+        */
+
+        var com = {};
+        com.Bookstore = {};
+
+        com.Bookstore.Book = {
+            title: 'A Game of Thrones',
+            genre: 'Fantasy'
+        };
+
+        com.Bookstore.Author = {
+            firstName: 'George',
+            lastName: 'Martin'
         };
 
     </script>
@@ -199,7 +261,8 @@
     <div id="innerDiv">Valar Morghulis</div>
     <button type="button" id="btnHideAnElement">Show/Hide Element</button>-->
 
-<!--    <section>
+<!--
+    <section>
 
         <label>
             Key: <input type="text" id="toStorageKey" />
@@ -224,11 +287,17 @@
     <div id="storage">
         <p>Current Storage Contents</p>
     </div>
--->
+    -->
 
+<!--
     <div id="geoResults">
         <p>Current Location is: </p>
     </div>
+-->
+
+    <div id="Div1">1</div>
+    <div id="Div2">2</div>
+    <div id="Div3">3</div>
 
 </body>
 </html>
