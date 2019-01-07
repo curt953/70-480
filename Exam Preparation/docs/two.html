@@ -82,7 +82,7 @@
         */
     </style>
     <script>
-        /* This code changes the position of images in the html programmatically;
+        /* This code changes the position of images in the html programmatically;*/
         window.onload = function () {
             let top = document.getElementById('topText');
             let left = document.getElementById('leftText');
@@ -95,17 +95,17 @@
                 img.style.top = top.value + 'px';
             };
         };
-        */
 
-        /* This code applies css transform methods to a image element
+
+        /* This code applies css transform methods to a image element*/
         window.onload = function () {
             document.getElementById('pictureOne').onclick = function () {
                 this.classList.add('trans');
             };
         };
-        */
 
-        /* This code changes the visibility of a div element
+
+        /* This code changes the visibility of a div element*/
         window.onload = function () {
             document.getElementById('btnHideAnElement').onclick = function () {
                 if (document.getElementById('innerDiv').style.display === 'inline') {
@@ -116,9 +116,9 @@
                 }
             };
         };
-        */
 
-        /* This code uses the localStorage to store values from HTML elements
+
+        /* This code uses the localStorage to store values from HTML elements*/
         window.onload = function () {
 
             let customer = new Object();
@@ -180,9 +180,8 @@
                 }
             }
         };
-        */
 
-        /* This code shows the current GPS location of the PC on which is written
+        /* This code shows the current GPS location of the PC on which is written*/
         let geoLocator;
         let watcher;
 
@@ -207,9 +206,9 @@
                 document.getElementById('geoResults').appendChild(err);
             }
         };
-        */
 
-        /* This code explains the different JS scopes
+
+        /* This code explains the different JS scopes*/
         var globalVar = 'global';
 
         window.onload = function () {
@@ -245,9 +244,7 @@
             }
 
         };
-        */
-
-        /* This code explains the different JS object's assignment
+        /* This code explains the different JS object's assignment*/
         var com = {};
         com.Bookstore = {};
 
@@ -365,14 +362,14 @@
                 Book.call(this)
             }}
         })
-        */
+
     </script>
 </head>
 <body id="bod">
 
 <!--onload="onLoadEvent()">-->
 
-<!-- Table containing two images and input fields to change their css positioning
+<!--Table containing two images and input fields to change their css positioning-->
 <table style="width: 100%; height: 100%; border: 1px solid black;">
 
     <tr>
@@ -415,13 +412,13 @@
     </tr>
 
 </table>
--->
 
-<!--<img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
+
+<img id="pictureOne" src="../images/image-one.jpg" style="position: relative;">
     <div id="innerDiv">Valar Morghulis</div>
-    <button type="button" id="btnHideAnElement">Show/Hide Element</button>-->
+    <button type="button" id="btnHideAnElement">Show/Hide Element</button>
 
-<!--
+
     <section>
 
         <label>
@@ -447,15 +444,15 @@
     <div id="storage">
         <p>Current Storage Contents</p>
     </div>
-    -->
 
-<!--
+
+
     <div id="geoResults">
         <p>Current Location is: </p>
     </div>
--->
 
-<!--    <div>Good and bad, young and old, the things we are fighting will destroy them ALL alike.</div>
+
+   <div>Good and bad, young and old, the things we are fighting will destroy them ALL alike.</div>
     <div id="outer">
 
         Outer div
@@ -483,29 +480,26 @@
     <label>Specify a range: <input type="range" max="200" min="0" value="0" id="aRange" /></label>
     <label for="aText">Enter your name: <input id="aText" type="text"/></label>
     <div id="rangeValue"></div>
--->
 
-<!--    <label>Enter your first name: <input id="firstNameText" type="text" /></label>
+
+   <label>Enter your first name: <input id="firstNameText" type="text" /></label>
     <label>Enter your last name: <input id="lastNameText" type="text" /></label>
 
     <div id="ruleViolation"></div>
     <div id="outputText"></div>
--->
 
-<!--    <div id="yellowBox"
+
+  <div id="yellowBox"
          style="background-color: red; color: yellow; width: 50%; height: 50%; margin: 0 auto;">
         Yellow
     </div>
--->
 
-<!--
+
+
     <div id="bucket1" class="bucket"></div>
     <div id="bucket2" class="bucket"></div>
     <div id="bucket3" class="bucket"></div>
     <div id="chip" draggable="true" class="chip">drag</div>
--->
-
-
 
 </body>
 </html>

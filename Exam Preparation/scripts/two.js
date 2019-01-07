@@ -1,15 +1,15 @@
 "use strict";
 
-/* This block of code is the starting one of the chapter
+/* This block of code is the starting one of the chapter*/
 let n = 2000, s = '2000';
 console.log(n == s);
 console.log(n === s);
 
 let userAge = 24, gender = 'M';
 let minimumAge = 11;
-*/
 
-/* This block of code contains the if, if else and switch statements
+
+/* This block of code contains the if, if else and switch statements*/
 if(userAge > minimumAge) {
     if (gender == 'M') {
         console.log('You are a MAN.');
@@ -46,9 +46,9 @@ switch (div1.style.backgroundColor) {
 }
 
 div1.style.backgroundColor == 'green' ? div1.innerText = 'proceed' : div1.innerText = 'stop'
-*/
 
-/* This block of code contains the default array methods
+
+/* This block of code contains the default array methods*/
 var anArray = new Array(1, 3, 54, 532);
 var stringArray = ['Valar Morghulis', 'Valar Dohaeris', 'no,u'];
 
@@ -91,9 +91,9 @@ console.log(reversedSports);
 console.log(sortedSports);
 console.log(slicedSports);
 console.log(splicedSports);
-*/
 
-/* This block of code contains more complicated array methods
+
+/* This block of code contains more complicated array methods*/
 let evenNumbers = [0, 2, 4, 6, 8, 9, 10];
 let allEven = evenNumbers.every(evenNumberCheck, this);
 
@@ -153,9 +153,8 @@ function factorial(previous, current) {
 
 console.log(factorials);
 console.log(backFact);
-*/
 
-/* This block of code contains iterative program flow with different loops
+/* This block of code contains iterative program flow with different loops*/
 
 for(let i = 0; i <= 10; i++){
     document.write(i);
@@ -197,9 +196,9 @@ while(i <= 10) {
     document.write('<hr/>');
     i++;
 }
-*/
 
-/* This block of code contains different event handling on the window object
+
+/* This block of code contains different event handling on the window object*/
 window.onload = () => console.log('Hello There');
 window.addEventListener('load', onLoadHandler1, false);
 window.addEventListener('load', onLoadHandler2, false);
@@ -285,9 +284,9 @@ window.onload = function () {
 function rangeChangeEvent() {
     document.getElementById('rangeValue').innerText = this.value;
 }
-*/
 
-/* This block of code contains focus event handling
+
+/* This block of code contains focus event handling*/
 
 window.onload = function () {
     document.getElementById('firstNameText').focus();
@@ -301,9 +300,9 @@ window.onload = function () {
                 }
             });
 };
-*/
 
-/* This block of code contains keyboard events
+
+/* This block of code contains keyboard events*/
 
 window.onload = function (event) {
     var x = event.which || event.keyCode;
@@ -322,9 +321,9 @@ document.onkeydown = function () {
         return false;
     }
 };
-*/
 
-/* This block of code contains mouse events
+
+/* This block of code contains mouse events*/
 
 window.onload = function () {
     document.getElementById('yellowBox').addEventListener('click', yellowBoxClick);
@@ -351,9 +350,8 @@ function yellowBoxEnter() {
 function yellowBoxLeave() {
     this.classList.remove('scale');
 }
-*/
 
-/* This block of code contains drag and drop events
+/* This block of code contains drag and drop events*/
 
 window.onload = function () {
     let chip = document.getElementById('chip');
@@ -382,9 +380,9 @@ window.onload = function () {
     });
 
 };
-*/
 
-/* This block of code contains a custom event
+
+/* This block of code contains a custom event*/
 let myEvent = new CustomEvent('anAction', {
     detail: {
         description: 'a description of the event',
@@ -402,4 +400,3 @@ function customEventHandler() {
 }
 
 document.dispatchEvent(myEvent);
-*/
