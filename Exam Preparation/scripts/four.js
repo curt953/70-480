@@ -1,4 +1,4 @@
-/* This block of code contains the different jQuery and AJAX calls and implementations */
+/* This block of code contains the AJAX calls to implement the WebSocket API
 window.onload = function () {
 
     let wsConnection;
@@ -70,5 +70,76 @@ window.onload = function () {
             chatBox.textContent = chatBox.textContent + '\r\n';
         }
     };
+
+};*/
+
+/* This block of code contains different jQuery implementations */
+
+window.onload = function () {
+
+    $('#searchButton').click(function () {
+        let searchPath;
+        $('#searchResults').empty();
+        
+        switch ($('#searchFruit').val()) {
+
+            case 'long':
+                searchPath = 'Fruit/Long.xml';
+                break;
+
+            case 'round':
+                searchPath = 'Fruit/Round.xml';
+                break;
+
+            case 'orange':
+                searchPath = 'Fruit/Orange.xml';
+                break;
+
+            default:
+                InvalidSearchTerm();
+                break;
+
+        }
+
+        // ajax GET request
+        $.ajax({
+            url: searchPath,
+            cache: false,
+            type: "GET",
+            dataType: "xml",
+            success: function (data) {
+                $(data).find("fruit").forEach(function () {
+                    $('#searchResults').append($(this).text());
+                    $('#searchResults').append('<br/>');
+                });
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                $('#searchResults').append(errorThrown);
+            }
+        });
+
+        // ajax POST request
+        $.ajax({
+            url: searchPath,
+            cache: false,
+            dataType: "xml",
+            type: "POST",
+            success: function (data) {
+                $(data).find("fruit").forEach(function () {
+                    $('#searchResults').append($(this).text());
+                    $('#searchResults').append('<br/>');
+                });
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                $('#searchResults').append(errorThrown);
+            }
+        });
+
+        function InvalidSearchTerm() {
+            $('#searchResults').empty();
+            $('#searchResults').append('Invalid Search Term. Please try again.');
+        }
+
+    });
 
 };
