@@ -1,4 +1,4 @@
-/* This block of code contains the AJAX calls to implement the WebSocket API
+/* This block of code contains the AJAX calls to implement the WebSocket API*/
 window.onload = function () {
 
     let wsConnection;
@@ -71,9 +71,9 @@ window.onload = function () {
         }
     };
 
-};*/
+};
 
-/* This block of code contains different jQuery implementations */
+/* This block of code contains different AJAX calls using jQuery implementations*/
 
 window.onload = function () {
 
@@ -143,3 +143,48 @@ window.onload = function () {
     });
 
 };
+
+/* This block of code contains traditional DOM event handling and jQuery quick-fix */
+
+window.onload = function () {
+
+    // this implementation is tedious and time consuming
+    document.getElementById('door1').onclick = function () {};
+    document.getElementById('door2').onclick = function () {};
+    document.getElementById('door3').onclick = function () {};
+
+    // here is the jQuery quick-fix
+    $('document').ready(function () {
+       $('#GameRow td').click(function () {
+           console.info('A door was pressed');
+           alert($(this).text());
+       });
+    });
+
+};
+
+/* This block of code contains jQuery DOM event handlers */
+
+$('document').ready(function () {
+    // $('document').ready(); is the same as saying window.onload = function() {};
+   $('#Button1').click(function () {
+       DoLongTask($('#inputValue').val(), function (result, data) {
+          if (result === 'SUCCESS') {
+              alert(data + ' is a Success');
+          }
+          else {
+              alert(data + ' is a FAIL');
+          }
+       });
+   });
+
+   function DoLongTask(n, f) {
+       if (n.length < 100) {
+           f('SUCCESS', n);
+       }
+       else {
+           f('FAIL', n);
+       }
+   }
+
+});

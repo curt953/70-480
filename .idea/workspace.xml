@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/four.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/four.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/four.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/docs/four.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam Preparation/scripts/four.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/scripts/four.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="2752">
+              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -33,17 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/four.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="874">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/two.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/three.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/three.js" />
-        <option value="$PROJECT_DIR$/Exam Preparation/docs/four.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/four.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/docs/four.html" />
       </list>
     </option>
   </component>
@@ -124,7 +124,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -215,7 +233,7 @@
       <workItem from="1547031913234" duration="253000" />
       <workItem from="1547032734369" duration="554000" />
       <workItem from="1547038097602" duration="252000" />
-      <workItem from="1547100978975" duration="9049000" />
+      <workItem from="1547100978975" duration="19614000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -301,11 +319,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546961936792</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit on 10.01.2019. Added the first implementation of AJAX calls using WebSocket API.">
+      <created>1547116585842</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547116585842</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit on 10.01.2019. Added the second implementation of AJAX calls using jQuery.">
+      <created>1547128456057</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547128456057</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171596000" />
+    <option name="totallyTimeSpent" value="182161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +430,9 @@
     <MESSAGE value="Commit on 07.01.2019. Removed all of the comment symbols from the code and only commented the description for the different blocks of code." />
     <MESSAGE value="Commit on 08.01.2019. Added the try...catch...finally implementation." />
     <MESSAGE value="Commit on 08.01.2019. Removed the comments of the try...catch...finally implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 08.01.2019. Removed the comments of the try...catch...finally implementation." />
+    <MESSAGE value="Commit on 10.01.2019. Added the first implementation of AJAX calls using WebSocket API." />
+    <MESSAGE value="Commit on 10.01.2019. Added the second implementation of AJAX calls using jQuery." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 10.01.2019. Added the second implementation of AJAX calls using jQuery." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -578,26 +612,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/four.html">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        <state relative-caret-position="2752">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/four.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="874">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
