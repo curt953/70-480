@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
+    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="    Commit on 10.01.2019.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/four.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/docs/four.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/scripts/four.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/scripts/four.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,29 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2752">
-              <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/four.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,10 +94,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2208" />
-    <option name="y" value="-247" />
-    <option name="width" value="1936" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,6 +118,12 @@
               <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +148,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -233,7 +221,9 @@
       <workItem from="1547031913234" duration="253000" />
       <workItem from="1547032734369" duration="554000" />
       <workItem from="1547038097602" duration="252000" />
-      <workItem from="1547100978975" duration="19614000" />
+      <workItem from="1547100978975" duration="19759000" />
+      <workItem from="1547197513579" duration="2555000" />
+      <workItem from="1547205869003" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -333,11 +323,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547128456057</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit on 10.01.2019. Uncommented the different code and HTML sections.">
+      <created>1547133668141</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547133668141</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182161000" />
+    <option name="totallyTimeSpent" value="184924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,15 +346,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-312" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" order="0" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49939248" weight="0.1459431" />
-      <window_info id="Version Control" order="5" side_tool="true" weight="0.25500527" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.33333334" />
+      <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.78571427" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32887402" />
@@ -390,6 +386,22 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MERGE_COMMITS" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -407,7 +419,13 @@
       <map>
         <entry key="Branch">
           <value>
-            <list />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
         <entry key="User">
@@ -432,7 +450,8 @@
     <MESSAGE value="Commit on 08.01.2019. Removed the comments of the try...catch...finally implementation." />
     <MESSAGE value="Commit on 10.01.2019. Added the first implementation of AJAX calls using WebSocket API." />
     <MESSAGE value="Commit on 10.01.2019. Added the second implementation of AJAX calls using jQuery." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 10.01.2019. Added the second implementation of AJAX calls using jQuery." />
+    <MESSAGE value="Commit on 10.01.2019. Uncommented the different code and HTML sections." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 10.01.2019. Uncommented the different code and HTML sections." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -587,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/libraries.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3496">
@@ -612,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2752">
-          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/four.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -632,6 +634,23 @@
             <element signature="n#style#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/libraries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
