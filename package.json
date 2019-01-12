@@ -1,14 +1,14 @@
 {
   "name": "html-and-js",
   "version": "1.0.0",
-  "description": "Demo projects for the 70-480 Microsoft Exam",
+  "description": "Practice material for the 70-480 Microsoft Exam",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curt953/html5-project.git"
+    "url": "git+https://github.com/curt953/70-480.git"
   },
   "keywords": [
     "HTML-JS-CSS"
@@ -16,7 +16,7 @@
   "author": "Zak Nikolov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/curt953/html5-project/issues"
+    "url": "https://github.com/curt953/70-480/issues"
   },
-  "homepage": "https://github.com/curt953/html5-project#readme"
+  "homepage": "https://github.com/curt953/70-480#readme"
 }
