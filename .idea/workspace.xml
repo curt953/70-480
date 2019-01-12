@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
+    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="    Commit on 12.01.2019. .">
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/six.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/six.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/six.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/scripts/six.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,20 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/five.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/six.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/six.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="790">
+              <caret line="186" column="7" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -118,8 +126,10 @@
         <option value="$PROJECT_DIR$/Exam Preparation/docs/five.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/five.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Exam Preparation/scripts/six.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/docs/6.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/six.html" />
+        <option value="$PROJECT_DIR$/Exam Preparation/scripts/6.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/scripts/six.js" />
       </list>
     </option>
   </component>
@@ -163,18 +173,6 @@
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,14 +198,14 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GIT\70-480\Exam Preparation\media" />
+      <recent name="C:\GIT\70-480\Exam Preparation\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GIT\70-480\Exam Preparation\styles" />
       <recent name="C:\GIT\70-480\Exam Preparation\scripts" />
       <recent name="C:\GIT\70-480\Exam Preparation\docs" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GIT\70-480\Exam Preparation\media" />
-      <recent name="C:\GIT\70-480\Exam Preparation\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +272,7 @@
       <workItem from="1547197513579" duration="2555000" />
       <workItem from="1547205869003" duration="3478000" />
       <workItem from="1547210176768" duration="11241000" />
-      <workItem from="1547274918639" duration="4539000" />
+      <workItem from="1547274918639" duration="6092000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -402,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547231003665</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project.">
+      <created>1547280596284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547280596284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204119000" />
+    <option name="totallyTimeSpent" value="205672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,7 +430,7 @@
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4974359" visible="true" weight="0.14541623" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.14541623" />
       <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.30580357" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
@@ -550,7 +555,8 @@
     <MESSAGE value="    Commit on 11.01.2019. No major changes." />
     <MESSAGE value="    Commit on 11.01.2019. Added the last examples of Chapter II Program Flow." />
     <MESSAGE value="    Commit on 11.01.2019. Added the first example of Chapter III." />
-    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 11.01.2019. Added the first example of Chapter III." />
+    <MESSAGE value="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project." />
+    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -749,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/five.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -779,16 +778,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/six.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/five.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/6.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/six.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="186" column="7" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/6.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/six.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="484">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
