@@ -1,29 +1,25 @@
 "use strict";
 
-/*
-NOTES to write down are pages:
+/* This block of code contains the regExp verification */
 
-1.Table 3-1 HTML5 input elements: p.193
+function CheckString() {
 
- */
+    try {
 
+        let s = $('#regExString').val();
+        let regExpression = /^[A-Z,a-z]\d[A-Z,a-z][\s{1}]?\d[A-Z,a-z]\d$/;
+        let results = regExpression.exec(s);
 
-// This block of code contains the user verification process of a HTML site
-window.onload= function() {
-    (function() {
+        if (results != null) {
+            console.info('Valid postal code: ' + results[0]);
+        }
+        else {
+            console.info('Invalid postal code.');
+        }
 
+    }
+    catch (e) {
+        console.error(e.message);
+    }
 
-        document.getElementById('submitButton').onclick = function () {
-            console.info('The submit event was triggered.');
-        };
-
-        document.getElementById('resetButton').onreset = function () {
-            console.info('The reset event was triggered.');
-        };
-
-        document.getElementById('cancelButton').oncancel = function () {
-            console.info('The cancel event was triggered.');
-        };
-
-    })();
-};
+}

@@ -2,186 +2,216 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <title>Sixth paths of HTML</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="../scripts/6.js"></script>
+    <script src="../scripts/six.js"></script>
+    <link rel="stylesheet" href="../styles/one.css">
 </head>
 <body>
 
-<header>
-    <h1>This document covers the first section of Chapter III</h1>
-</header>
+    <header>
+        <h1>This document covers the first section of Chapter III</h1>
+    </header>
 
-<form>
+    <form>
 
-    <div>
-        <hgroup>
-            <h1>Customer Satisfaction is #1</h1>
-            <h2>Please take the time to fill out the following survey:</h2>
-        </hgroup>
-    </div>
+        <div>
+            <hgroup>
+                <h1>Customer Satisfaction is #1</h1>
+                <h2>Please take the time to fill out the following survey:</h2>
+            </hgroup>
+        </div>
 
-    <table>
+        <table>
+    
+            <tr>
 
-        <tr>
+                <td>Your secret code:</td>
 
-            <td>Your secret code:</td>
+                <td>
 
-            <td>
-                <input type="text" readonly="readonly" value="00XY998BB" />
-            </td>
+                    <input type="text" readonly value="00XY998BB" />
 
-        </tr>
+                </td>
 
-        <tr>
+            </tr>
 
-            <td>Password:</td>
+            <tr>
 
-            <td>
-                <input type="password" />
-            </td>
+                <td>Password:</td>
 
-        </tr>
+                <td>
 
-        <tr>
+                    <input type="password" />
 
-            <td>First Name:</td>
+                </td>
 
-            <td>
-                <input type="text" id="firstNameText" maxlength="50" />
-            </td>
+            </tr>
 
-        </tr>
+            <tr>
 
-        <tr>
+                <td>First Name:</td>
 
-            <td>Last Name:</td>
+                <td>
 
-            <td>
-                <input type="text" id="lastNameText" />
-            </td>
+                    <input type="text" id="firstNameText" maxlength="50" />
 
-        </tr>
+                </td>
 
-        <tr>
+            </tr>
 
-            <td>Your favourite website:</td>
+            <tr>
 
-            <td>
-                <input type="url" />
-            </td>
+                <td>Last Name:</td>
 
-        </tr>
+                <td>
 
-        <tr>
+                    <input type="text" id="lastNameText" />
 
-            <td>Your age in years:</td>
+                </td>
 
-            <td>
-                <input type="number" />
-            </td>
+            </tr>
 
-        </tr>
+            <tr>
 
-        <tr>
+                <td>Postal code:</td>
 
-            <td>What colors have you colored your hair:</td>
+                <td>
+                    <input type="text" id="regExString" />
+                    <button onclick="CheckString();">Evaluate</button>
+                </td>
 
-            <td>
+            </tr>
 
-                <input type="checkbox" id="chkBrown" checked="checked" /> Brown
+            <tr>
 
-                <input type="checkbox" id="chkBlonde" /> Blonde
+                <td>Your favourite website:</td>
 
-                <input type="checkbox" id="chkBlack" /> Black
+                <td>
 
-                <input type="checkbox" id="chkRed" /> Red
+                    <!--<input type="url" />-->
+                    <input type="text"
+                           title="Only .com and .ca are permitted"
+                           pattern="^[a-zA-Z0-9\\-\\.]+.\\(com|ca)$" />
 
-                <input type="checkbox" id="chkNone" /> None
+                </td>
 
-            </td>
+            </tr>
 
-        </tr>
+            <tr>
 
-        <tr>
+                <td>Your age in years:</td>
 
-            <td>Rate your experience:</td>
+                <td>
 
-            <td>
+                    <input type="number" />
 
-                <input type="radio" id="chkOne" name="experience" /> 1 - Very poor
+                </td>
 
-                <input type="radio" id="chkTwo" name="experience" /> 2
+            </tr>
 
-                <input type="radio" id="chkThree" name="experience" /> 3
+            <tr>
 
-                <input type="radio" id="chkFour" name="experience" /> 4
+                <td>What colors have you colored your hair:</td>
 
-                <input type="radio" id="chkFive" name="experience" checked="checked" /> 5 - Very good
+                <td>
 
-            </td>
+                    <input type="checkbox" id="chkBrown" checked="checked" /> Brown
 
-        </tr>
+                    <input type="checkbox" id="chkBlonde" /> Blonde
 
-        <tr>
+                    <input type="checkbox" id="chkBlack" /> Black
 
-            <td>How likely would you recommend the product:</td>
+                    <input type="checkbox" id="chkRed" /> Red
 
-            <td>
-                <br />
-                <br />
-                <br />
-                <br />
+                    <input type="checkbox" id="chkNone" /> None
 
-                <input type="range" min="1" max="25" value="20" />
+                </td>
 
-            </td>
+            </tr>
 
-        </tr>
+            <tr>
 
-        <tr>
+                <td>Rate your experience:</td>
 
-            <td>Other comments:</td>
+                <td>
 
-            <td>
-                <textarea id="otherCommentsText" cols="20" rows="5" spellcheck="true"></textarea>
-            </td>
+                    <input type="radio" id="chkOne" name="experience" /> 1 - Very poor
 
-        </tr>
+                    <input type="radio" id="chkTwo" name="experience" /> 2
 
-        <tr>
+                    <input type="radio" id="chkThree" name="experience" /> 3
 
-            <td>Email Address:</td>
+                    <input type="radio" id="chkFour" name="experience" /> 4
 
-            <td>
-                <input type="email" placeholder="me@domain.com" required />
-            </td>
+                    <input type="radio" id="chkFive" name="experience" checked="checked" /> 5 - Very good
 
-        </tr>
+                </td>
 
-        <tr>
+            </tr>
 
-            <td>
-                <input type="submit" value="Submit" id="submitButton" />
-                <input type="reset" value="Reset" id="resetButton" />
-                <input type="button" value="Cancel" id="cancelButton" />
-            </td>
+            <tr>
 
-        </tr>
+                <td>How likely would you recommend the product:</td>
 
-    </table>
+                <td>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
 
-</form>
+                    <input type="range" min="1" max="25" value="20" />
 
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Other comments:</td>
+
+                <td>
+
+                    <textarea id="otherCommentsText" cols="20" rows="5" spellcheck="true"></textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Email Address:</td>
+
+                <td>
+
+                    <input type="email" placeholder="me@domain.com" required />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+
+                    <input type="submit" value="Submit" id="submitButton" />
+
+                    <input type="reset" value="Reset" id="resetButton" />
+
+                    <input type="button" value="Cancel" id="cancelButton" />
+
+                    <!--<button>-->
+                        <!--<p>Something exciting lies behind this button</p>-->
+                        <!--<img src="../images/image-one.jpg" alt="Dragon Age Origins" />-->
+                    <!--</button>-->
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </form>
 
 </body>
 </html>
