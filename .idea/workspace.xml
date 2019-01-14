@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/seven.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/resources/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/seven.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/eight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/resources/ReceiveXmlData.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/resources/processSignUp.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/eight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/scripts/libraries.json" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/resources/libraries.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/styles/one.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/styles/one.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/seven.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/eight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="1258">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
               </folding>
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/seven.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4320">
-              <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            <state relative-caret-position="290">
+              <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -103,6 +102,8 @@
         <option value="$PROJECT_DIR$/Exam Preparation/docs/seven.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/styles/one.css" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/seven.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/docs/eight.html" />
+        <option value="$PROJECT_DIR$/Exam Preparation/scripts/eight.js" />
       </list>
     </option>
   </component>
@@ -145,12 +146,6 @@
               <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547280596284</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="    Commit on 14.01.2019. Added the js and html files for the XMLHttpRequest object implementation. Also added the resources folder and filled it with 1 .xml and 1 .json file.">
+      <created>1547463183600</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547463183600</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228217000" />
+    <option name="totallyTimeSpent" value="235457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +540,8 @@
     <MESSAGE value="    Commit on 11.01.2019. Added the last examples of Chapter II Program Flow." />
     <MESSAGE value="    Commit on 11.01.2019. Added the first example of Chapter III." />
     <MESSAGE value="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project." />
-    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project." />
+    <MESSAGE value="    Commit on 14.01.2019. Added the js and html files for the XMLHttpRequest object implementation. Also added the resources folder and filled it with 1 .xml and 1 .json file." />
+    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 14.01.2019. Added the js and html files for the XMLHttpRequest object implementation. Also added the resources folder and filled it with 1 .xml and 1 .json file." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -795,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/resources/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/one.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -818,11 +814,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/seven.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="115">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/resources/ReceiveXmlData.aspx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/resources/processSignUp.aspx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/resources/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/eight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
         </state>
       </provider>
     </entry>
