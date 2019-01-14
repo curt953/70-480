@@ -1,0 +1,12 @@
+<Person>
+
+    <firstName>Svilen</firstName>
+    <initialName>D.</initialName>
+    <lastName>Nikolov</lastName>
+    <age>24</age>
+    <weight>62</weight>
+    <height>1.73</height>
+    <hairColor>Brown</hairColor>
+    <eyeColor>Dark-Brown</eyeColor>
+
+</Person>

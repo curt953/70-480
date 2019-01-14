@@ -44,3 +44,7 @@ tfoot td {
     font-style: italic;
     color: #8a97a0;
 }
+
+.hide {
+    display: none;
+}
