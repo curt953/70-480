@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00FF00;
+}
+
+h3 {
+    color: green;
+}
+
+div {
+    color: rgb(0, 255, 0);
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#timesNewRoman {
+    font-family: Arial, 'Times New Roman', Webdings;
+}
+
+@font-face {
+    font-family: 'My Nicer Font';
+    src: url("../fonts/my_woff_font.eot");
+    src: url("../fonts/my_woff_font.woff");
+}
+
+#customFont {
+    font-family: 'My Nicer Font';
+}
+
+
+#xSized {
+   font-size: x-large;
+}
+
+#alignCenter {
+    text-align: center;
+}
+
+#indentText {
+    text-indent: 50px;
+}
+
+#letterSpaced {
+    letter-spacing: 8px;
+}
+
+#wordSpaced {
+    word-spacing: 8px;
+}
+
+#hyphenText {
+    hyphens: none;
+}

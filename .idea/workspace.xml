@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/eight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/resources/ReceiveXmlData.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/resources/processSignUp.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/eight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/nine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/fonts/my_woff_font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/fonts/my_woff_font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/scripts/nine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exam Preparation/styles/two.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,34 +23,13 @@
     <favorites_list name="html5-project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/eight.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -104,6 +84,9 @@
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/seven.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/eight.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/eight.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/scripts/nine.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/styles/two.css" />
+        <option value="$PROJECT_DIR$/Exam Preparation/docs/nine.html" />
       </list>
     </option>
   </component>
@@ -134,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,10 +129,23 @@
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
+              <item name="70-480" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +154,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="" />
@@ -250,6 +246,7 @@
       <workItem from="1547274918639" duration="6092000" />
       <workItem from="1547355154173" duration="3161000" />
       <workItem from="1547384826840" duration="8265000" />
+      <workItem from="1547534339277" duration="9933000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -395,7 +392,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235457000" />
+    <option name="totallyTimeSpent" value="245390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,13 +405,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-312" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" order="0" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.14488935" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4974359" visible="true" weight="0.14488935" />
       <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.20126449" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
@@ -812,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/seven.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/resources/ReceiveXmlData.aspx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -834,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/eight.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="782">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
           </folding>
@@ -844,8 +833,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="652">
+          <caret line="104" column="17" lean-forward="true" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/seven.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/nine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/fonts/my_woff_font.eot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/fonts/my_woff_font.woff">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1989">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/two.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
     </entry>
