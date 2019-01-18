@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="    Commit on 16.01.2019. Added the .">
+    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/nine.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/docs/nine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam Preparation/styles/two.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/styles/two.css" afterDir="false" />
@@ -24,15 +24,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+            <state relative-caret-position="1830">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#513#1252#0" />
+                <element signature="e#1258#3322#0" />
                 <element signature="n#header#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#table#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -41,8 +40,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/two.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+            <state relative-caret-position="2042">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
+              <folding>
+                <element signature="e#2#36#0" />
+                <element signature="e#88#111#0" />
+                <element signature="e#116#137#0" />
+                <element signature="e#145#171#0" />
+                <element signature="e#181#208#0" />
+                <element signature="e#225#281#0" />
+                <element signature="e#294#418#0" />
+                <element signature="e#432#469#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +118,8 @@
         <option value="$PROJECT_DIR$/Exam Preparation/docs/eight.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/eight.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/nine.js" />
-        <option value="$PROJECT_DIR$/Exam Preparation/docs/nine.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/styles/two.css" />
+        <option value="$PROJECT_DIR$/Exam Preparation/docs/nine.html" />
       </list>
     </option>
   </component>
@@ -128,10 +137,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1686" />
-    <option name="y" value="-105" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+    <option name="x" value="-3848" />
+    <option name="y" value="-1383" />
+    <option name="width" value="3856" />
+    <option name="height" value="2136" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,6 +166,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +270,9 @@
       <workItem from="1547534339277" duration="10103000" />
       <workItem from="1547562266176" duration="3397000" />
       <workItem from="1547620045389" duration="710000" />
-      <workItem from="1547620793395" duration="15143000" />
+      <workItem from="1547620793395" duration="15269000" />
+      <workItem from="1547714959965" duration="7488000" />
+      <workItem from="1547805904081" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -410,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547557700403</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="    Commit on 16.01.2019. Added the css and html code for the 4.2 objective.">
+      <created>1547652694865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547652694865</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264810000" />
+    <option name="totallyTimeSpent" value="274244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,14 +444,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-312" width="1936" height="1056" extended-state="6" />
+    <frame x="-3848" y="-1383" width="3856" height="2136" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" order="0" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.14488935" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.067050815" />
       <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.20126449" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
@@ -561,7 +579,8 @@
     <MESSAGE value="    Commit on 12.01.2019. Change the package.json file to point to the real project repository previously called Web project." />
     <MESSAGE value="    Commit on 14.01.2019. Added the js and html files for the XMLHttpRequest object implementation. Also added the resources folder and filled it with 1 .xml and 1 .json file." />
     <MESSAGE value="    Commit on 14.01.2019. Added the first css file and html for the start of the Chapter IV CSS3 implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 14.01.2019. Added the first css file and html for the start of the Chapter IV CSS3 implementation." />
+    <MESSAGE value="    Commit on 16.01.2019. Added the css and html code for the 4.2 objective." />
+    <option name="LAST_COMMIT_MESSAGE" value="    Commit on 16.01.2019. Added the css and html code for the 4.2 objective." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -884,23 +903,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        <state relative-caret-position="1830">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#513#1252#0" />
+            <element signature="e#1258#3322#0" />
             <element signature="n#header#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#0;n#article#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/two.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
+        <state relative-caret-position="2042">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="e#2#36#0" />
+            <element signature="e#88#111#0" />
+            <element signature="e#116#137#0" />
+            <element signature="e#145#171#0" />
+            <element signature="e#181#208#0" />
+            <element signature="e#225#281#0" />
+            <element signature="e#294#418#0" />
+            <element signature="e#432#469#0" />
+          </folding>
         </state>
       </provider>
     </entry>
