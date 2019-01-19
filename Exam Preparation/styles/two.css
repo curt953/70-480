@@ -8,7 +8,7 @@ h1 {
     color: #00FF00;
 }
 
-h3 {
+h4 {
     color: green;
 }
 
@@ -362,3 +362,6 @@ html, body {
 .contacts_regions {
     flow-from: myflow;
 }
+
+/* Objective 4.4: Create an animated and adaptive UI */
+
