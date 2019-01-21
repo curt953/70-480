@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second Rerun HTML document</title>
+</head>
+<body>
+
+    <script>
+        window.onload = function () {
+            let echo = new Worker('echo.js');
+
+            echo.onmessage = function (e) {
+                alert(e.data);
+            };
+
+            document.getElementById('echoForm').addEventListener('submit', function (e) {
+                echo.postMessage({
+                    message: e.target.message.value,
+                    timeout: e.target.timeout.value
+                });
+                e.preventDefault();
+            }, false);
+
+        };
+    </script>
+
+    <form id="echoForm">
+        <p>Echo following message after a delay.</p>
+        <input type="text" name="message" value="Input message here." /> <br/>
+        <input type="number" name="timeout" max="10" value="2" /> seconds. <br/>
+        <button type="submit">Submit Message</button>
+    </form>
+
+</body>
+</html>
