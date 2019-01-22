@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/rerun/docs/one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/echo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/one.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/two.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/docs/two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/echo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="723">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +68,6 @@
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/two.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/three.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/three.js" />
-        <option value="$PROJECT_DIR$/Exam Preparation/scripts/four.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/docs/four.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/workcode.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/CalculateWorker.js" />
@@ -110,9 +95,10 @@
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/one.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/one.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/docs/one.html" />
-        <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/echo.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html" />
+        <option value="$PROJECT_DIR$/Exam Preparation/scripts/four.js" />
+        <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" />
       </list>
     </option>
   </component>
@@ -130,10 +116,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="1942" />
-    <option name="height" value="2127" />
+    <option name="x" value="-9" />
+    <option name="width" value="1936" />
+    <option name="height" value="2121" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,20 +145,7 @@
               <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
               <item name="rerun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="rerun" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
@@ -181,18 +153,6 @@
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
               <item name="rerun" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,6 +271,9 @@
       <workItem from="1547969317185" duration="2723000" />
       <workItem from="1547981386705" duration="10431000" />
       <workItem from="1548067784416" duration="7933000" />
+      <workItem from="1548081118373" duration="3079000" />
+      <workItem from="1548144915109" duration="1455000" />
+      <workItem from="1548166101752" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -487,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547923071400</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files.">
+      <created>1548081247355</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1548081247365</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326297000" />
+    <option name="totallyTimeSpent" value="333768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +600,8 @@
     <MESSAGE value="    Commit on 16.01.2019. Added the css and html code for the 4.2 objective." />
     <MESSAGE value="    Commit on 18.01.2019. Added the css for the 4.3 objective." />
     <MESSAGE value="Commit on 19.01.2019. Completed the final chapter of the book and uncommented the code in nine.html and two.css." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 19.01.2019. Completed the final chapter of the book and uncommented the code in nine.html and two.css." />
+    <MESSAGE value="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -854,58 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1840">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/five.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/six.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4978">
-          <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/seven.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/two.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/two.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19872">
@@ -964,24 +883,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="1032">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/echo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="92">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/four.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/five.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/six.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/seven.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/eight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
