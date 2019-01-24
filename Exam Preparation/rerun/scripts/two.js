@@ -143,4 +143,30 @@ section.appendChild(input);
 player.src = audioFileInput.value;
 player.play();
 
-// Code for 3
+// Code for 44th question's correct and incorrect answers:
+
+// Correct:
+$.ajax({
+    url: "Weather.asmx/GetWeather",
+    type: "POST",
+    async: true,
+    cache: false,
+    data: {"ZipCode": zipCode},
+    dataType: "html",
+    success: function (result) {
+        showWeather(result);
+    }
+});
+
+// Incorrect
+$.ajax({
+   url: "Weather.asmx/GetWeather",
+   type: "POST",
+   async: true,
+   cache: true,
+   data: {"ZipCode": zipCode},
+   dataType: "html",
+   success: function (result) {
+       showWeather(result);
+   }
+});

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam Preparation/resources/70-480 Practice Exam Answers and Explanations.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/resources/70-480 Practice Exam Answers and Explanations.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +24,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="728">
+              <caret line="171" column="3" lean-forward="true" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/one.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -97,8 +107,8 @@
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/echo.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html" />
         <option value="$PROJECT_DIR$/Exam Preparation/scripts/four.js" />
-        <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" />
         <option value="$PROJECT_DIR$/Exam Preparation/styles/one.css" />
+        <option value="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" />
       </list>
     </option>
   </component>
@@ -128,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,29 +150,11 @@
               <item name="70-480" type="462c0819:PsiDirectoryNode" />
               <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="rerun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="rerun" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="70-480" type="b2602c69:ProjectViewProjectNode" />
-              <item name="70-480" type="462c0819:PsiDirectoryNode" />
-              <item name="Exam Preparation" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,7 +460,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="344032000" />
+    <option name="totallyTimeSpent" value="347257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,15 +472,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3221" height="1778" extended-state="6" />
+    <frame x="-1928" y="-312" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" order="0" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.4974359" visible="true" weight="0.08294062" />
-      <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.20089285" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.08271865" />
+      <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.37934667" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32839507" />
@@ -609,7 +600,8 @@
     <MESSAGE value="    Commit on 18.01.2019. Added the css for the 4.3 objective." />
     <MESSAGE value="Commit on 19.01.2019. Completed the final chapter of the book and uncommented the code in nine.html and two.css." />
     <MESSAGE value="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files." />
+    <MESSAGE value="Commit on 24.01.2019. No major changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 24.01.2019. No major changes." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -963,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="728">
+          <caret line="171" column="3" lean-forward="true" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
         </state>
       </provider>
     </entry>
