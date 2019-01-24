@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="171" column="3" lean-forward="true" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
+            <state relative-caret-position="476">
+              <caret line="216" column="17" lean-forward="true" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/one.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
+            <state relative-caret-position="1127">
               <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
             </state>
           </provider>
@@ -126,9 +126,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="2122" />
+    <option name="x" value="-1640" />
+    <option name="y" value="-168" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -273,6 +274,8 @@
       <workItem from="1548166101752" duration="2937000" />
       <workItem from="1548221005749" duration="711000" />
       <workItem from="1548222925777" duration="9284000" />
+      <workItem from="1548338046672" duration="10000" />
+      <workItem from="1548339717698" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -456,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548081247365</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Commit on 24.01.2019. Added code and answer explanations to questions up to 44th. Currently on the 45th.">
+      <created>1548327422448</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1548327422448</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347257000" />
+    <option name="totallyTimeSpent" value="351105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file." />
     <MESSAGE value="Commit on 13.12.2018. Added new html files and changed the main html file." />
     <MESSAGE value="Commit on 13.12.2018. Changed the contacts.html file." />
     <MESSAGE value="Commit on 13.12.2018. Added headers and navigation to all of the html files." />
@@ -601,7 +610,8 @@
     <MESSAGE value="Commit on 19.01.2019. Completed the final chapter of the book and uncommented the code in nine.html and two.css." />
     <MESSAGE value="Commit on 21.01.2019. Added the rerun folder which contains docs and scripts sub-folders and a few html and js files." />
     <MESSAGE value="Commit on 24.01.2019. No major changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 24.01.2019. No major changes." />
+    <MESSAGE value="Commit on 24.01.2019. Added code and answer explanations to questions up to 44th. Currently on the 45th." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 24.01.2019. Added code and answer explanations to questions up to 44th. Currently on the 45th." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -946,17 +956,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/one.css">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="476">
+          <caret line="216" column="17" lean-forward="true" selection-start-line="216" selection-start-column="17" selection-end-line="216" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/styles/one.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="171" column="3" lean-forward="true" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
+        <state relative-caret-position="1127">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>

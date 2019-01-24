@@ -170,3 +170,50 @@ $.ajax({
        showWeather(result);
    }
 });
+
+// Code for 46th question's correct answer:
+
+// Correct:
+$.ajax({
+    url: "http://services.measureup.com/Exam",
+    type: "GET",
+    data: {examNumber: "70-480"},
+    contentType: "application/json; charset=utf-8",
+    dataType: "json",
+    success: function (result) {
+        window.alert(result.price);
+    }
+});
+
+// Code for 47th question's correct and incorrect answers:
+
+// Correct:
+var socket = new WebSocket("wss://ChatService");
+socket.onmessage = function (event) {
+    document.writeln(event.data);
+};
+
+// Incorrect:
+var socket = new WebSocket("wss://ChatService");
+socket.send("{document.writeln(socket.bufferedAmount)}");
+
+// Code for 48th question's correct and incorrect answers:
+
+// Correct:
+GetCurrentLocation(
+    function (position) {
+        alert(position);
+    },
+    function (error) {
+        alert(error);
+    }
+);
+
+// Incorrect:
+function onSuccess(position) {
+    alert(position);
+}
+function onError(error) {
+    alert(error);
+}
+GetCurrentLocation(onSuccess(), onError());
