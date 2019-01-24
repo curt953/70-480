@@ -142,3 +142,5 @@ section.appendChild(input);
 // Correct:
 player.src = audioFileInput.value;
 player.play();
+
+// Code for 3
