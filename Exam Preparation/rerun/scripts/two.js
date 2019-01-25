@@ -217,3 +217,107 @@ function onError(error) {
     alert(error);
 }
 GetCurrentLocation(onSuccess(), onError());
+
+// Code for 51th question's correct answer:
+
+// Correct:
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function (position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        // query database to find the nearest petrol station.
+    });
+}
+
+// Code for 52th question's correct answer:
+
+// Correct:
+window.navigator.geolocation.getCurrentPosition(function (position) {
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+});
+
+// Code for 54th question's correct and incorrect answers:
+
+// Correct:
+/*
+CACHE MANIFEST
+Main.js
+Main.css
+NETWORK:
+Functions.js
+ */
+
+// Incorrect:
+/*
+CACHE MANIFEST
+CACHE:
+Main.js
+Main.css
+FALLBACK:
+Functions.js
+ */
+
+// Code for 56th question's correct answer:
+
+// Correct:
+/*
+CACHE MANIFEST:
+CACHE:
+App.js
+App.css
+NETWORK:
+Test.js
+ */
+
+// Code for 61th question's correct and incorrect answers:
+
+// Correct:
+var totalPrice = 0;
+var prices = doc.selectNodes("//Item[@Name='Sandwich' or @Name='Lemonade']/@Price");
+for (var index = 0; index < prices.length; index++){
+    totalPrice += prices[index].value;
+}
+
+// Incorrect:
+var totalPrice = 0;
+var prices = doc.selectNodes("//Item[Name='Sandwich' or Name='Lemonade']/Price");
+for (var index = 0; index < prices.length; index++){
+    totalPrice += prices[index].value;
+}
+
+// Code for 62th question's correct answer:
+
+// Correct:
+var data = null;
+request.onreadystatechange = function () {
+    if (request.readyState == 4 && request.status == 200) {
+        data = request.responseText;
+    }
+};
+
+// Code for 63th question's correct and incorrect answers:
+
+// Correct:
+var newMenu = JSON.parse(menu, function (key, value) {
+    var newValue =  value;
+    switch (key) {
+        case "Calories":
+        case "Type":
+            newValue = undefined;
+            break;
+    }
+    return newValue;
+});
+
+// Incorrect:
+var newMenu = JSON.stringify(menu, function (key, value) {
+    var newValue =  value;
+    switch (key) {
+        case "Calories":
+        case "Type":
+            newValue = undefined;
+            break;
+    }
+    return newValue;
+});
