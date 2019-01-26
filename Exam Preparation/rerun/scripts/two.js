@@ -321,3 +321,44 @@ var newMenu = JSON.stringify(menu, function (key, value) {
     }
     return newValue;
 });
+
+// Code for 73th question's correct answer:
+
+// Correct:
+function Fibonacci() {
+    this.number = 1;
+    this.previousNumber = 0;
+    this.increment = function () {
+        var newNumber = this.number + this.previousNumber;
+        this.previousNumber = this.number;
+        this.number = newNumber;
+    };
+}
+
+// Code for 83th question's correct and incorrect answers:
+
+// Correct:
+var request = new XMLHttpRequest();
+request.open("POST", "www.measureup/Feedback.asp", false);
+request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+request.send("FirstName=Jamie&LastName=Smith");
+
+// Incorrect:
+var request = new XMLHttpRequest();
+request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+request.open("POST", "http://www.measureup/Feedback.asp?FirstName=Jamie&LastName=Smith", false);
+request.send();
+
+// Code for 94th question's correct and incorrect answers:
+
+// Correct:
+div1.addEventListener("click", capture, true);
+div2.addEventListener("click", capture, true);
+div1.addEventListener("click", bubble, false);
+div2.addEventListener("click", bubble, false);
+
+// Incorrect:
+div1.addEventListener("click", capture, false);
+div2.addEventListener("click", capture, false);
+div1.addEventListener("click", bubble, true);
+div2.addEventListener("click", bubble, true);
