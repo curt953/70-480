@@ -362,3 +362,184 @@ div1.addEventListener("click", capture, false);
 div2.addEventListener("click", capture, false);
 div1.addEventListener("click", bubble, true);
 div2.addEventListener("click", bubble, true);
+
+// Code for 97th question's correct answer:
+
+// Correct:
+ canvas.onmousedown = function (event) {
+    if (event.button == 0) {
+        x = event.x;
+        y = event.y;
+        isMouseDown = true;
+    }
+ };
+ canvas.onmousemove = function (event) {
+    if(isMouseDown) {
+        context.clearRect(x, y, width, height);
+        width = event.x - x;
+        height = event.y - y;
+        context.fillRect(x, y, width, height);
+    }
+ };
+ canvas.onmouseup = function () {
+    isMouseDown = false;
+ };
+
+ // Code for 107th question's correct and incorrect answers:
+
+// Correct:
+switch (promoCode) {
+    case "":
+        discount = 0;
+        break;
+
+    case "BDAY":
+        discount = 0.10;
+        break;
+
+    default:
+        alert("Invalid code.");
+}
+
+// Incorrect:
+switch (promoCode) {
+    case "":
+        alert("Invalid code.");
+        break;
+
+    case "BDAY":
+        discount = 0.10;
+        break;
+
+    default:
+        discount = 0;
+}
+
+// Code for 110th question's correct answer:
+
+// Correct:
+var count = 1;
+while(count <= maxNumber) {
+    sum += count * count;
+    count += 1;
+}
+
+// Code for 112th question's correct and incorrect answers:
+
+// Correct:
+var passedExam = false;
+while (true) {
+    var score = GetExamScore();
+    if (score < 70) break;
+    passedExam = true;
+    AddToWaitingList();
+
+    if (score < 90) break;
+    EmailTeamLead();
+
+    var yearsExperience = GetYearsExperience();
+    if (yearsExperience < 10) break;
+    EmailHiringManager();
+
+    break;
+}
+
+// Incorrect:
+var passedExam = false;
+var score = GetExamScore();
+if (score >= 70) { passedExam = true; AddToWaitingList(); }
+else if (score >= 90) { EmailTeamLead(); }
+else if (GetYearsExperience() >= 10) { EmailHiringManager(); }
+
+// Code for 113th question's correct answer:
+
+// Correct: 
+switch (code) {
+    case 10:
+        description = 'Ocean';
+        break;
+    case 20:
+        description = 'Rail';
+        break;
+    case 30:
+        description = 'Truck';
+        break;
+    case 40:
+        description = 'Air';
+        break;
+    default:
+        description = 'Other';
+        break;
+}
+
+// Code for 117th question's correct answer:
+
+// Correct:
+var worker = new Worker('Worker.js');
+worker.onmessage = function (e) {
+      alert(e.data);
+};
+worker.postMessage("");
+
+// Code for 118th question's correct answer:
+
+// Correct:
+self.onmessage = function (e) {
+    var result = VerifyAddress(e.data);
+    self.postMessage(result);
+};
+
+// Code for 120th question's correct answer:
+
+// Correct:
+onmessage = function (e) {
+    var areaCode = e.data.areaCode;
+};
+
+// Code for 121th question's correct answer:
+
+// Correct:
+onmessage = function (e) {
+    var keywords = e.data.keywords;
+};
+
+// Code for 127th question's incorrect answer:
+
+// Incorrect:
+function Person() {}
+var person = new Person();
+person.prototype.firstName = "Jamie";
+person.prototype.lastName = "Smith";
+
+// Code for 128th question's correct answer:
+
+// Correct:
+Circle.prototype.Area = function () {
+    return Math.PI * this.radius * this.radius;
+};
+
+// Code for 130th question's incorrect answer:
+
+// Incorrect:
+function Device() {}
+var device = new Device();
+device.prototype.modelNumber = "XKC123";
+device.prototype.serialNumber = "4119411";
+
+// Code for 131th question's correct answer:
+
+// Correct:
+function isValidZipCode(sZipCode) {
+    return /^\d{5}(-\d{4})?$/.test(sZipCode);
+}
+
+// Code for 132th question's correct answer:
+
+// Correct:
+function checkCountryCode() {
+    var code = $("#txtCountryCode").val();
+    if (/^[A-Z]{2}$/.test(code)) {
+        return true;
+    }
+    return false;
+}

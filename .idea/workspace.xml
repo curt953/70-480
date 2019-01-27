@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam Preparation/resources/70-480 Practice Exam Answers and Explanations.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/resources/70-480 Practice Exam Answers and Explanations.xlsx" afterDir="false" />
     </list>
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1435">
-              <caret line="363" column="43" selection-start-line="363" selection-start-column="43" selection-end-line="363" selection-end-column="43" />
+            <state relative-caret-position="767">
+              <caret line="528" column="44" lean-forward="true" selection-start-line="528" selection-start-column="44" selection-end-line="528" selection-end-column="44" />
               <folding>
                 <element signature="e#199#348#0" />
                 <element signature="e#362#429#0" />
@@ -67,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+            <state relative-caret-position="283">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -160,10 +161,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1051" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1940" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -326,7 +327,8 @@
       <workItem from="1548398285288" duration="1204000" />
       <workItem from="1548401714904" duration="8883000" />
       <workItem from="1548483965278" duration="257000" />
-      <workItem from="1548484243414" duration="8771000" />
+      <workItem from="1548484243414" duration="8871000" />
+      <workItem from="1548570302873" duration="20603000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -524,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548342316015</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Commit on 26.01.2019. Added code and answer explanations to questions up to 96th. Currently on the 97th.">
+      <created>1548528575032</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1548528575032</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370789000" />
+    <option name="totallyTimeSpent" value="391492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +557,7 @@
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.09079485" />
-      <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.13729186" />
+      <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.23656927" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32940447" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32839507" />
@@ -644,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit on 13.12.2018. Changed the contacts.html file." />
     <MESSAGE value="Commit on 13.12.2018. Added headers and navigation to all of the html files." />
     <MESSAGE value="Commit on 13.12.2018. No major changes." />
     <MESSAGE value="Commit on 05.01.2019. Added the code for the experiment four." />
@@ -669,7 +677,8 @@
     <MESSAGE value="Commit on 24.01.2019. No major changes." />
     <MESSAGE value="Commit on 24.01.2019. Added code and answer explanations to questions up to 44th. Currently on the 45th." />
     <MESSAGE value="Commit on 24.01.2019. Added code and answer explanations to questions up to 50th. Currently on the 51th." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 24.01.2019. Added code and answer explanations to questions up to 50th. Currently on the 51th." />
+    <MESSAGE value="Commit on 26.01.2019. Added code and answer explanations to questions up to 96th. Currently on the 97th." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 26.01.2019. Added code and answer explanations to questions up to 96th. Currently on the 97th." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -1016,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1435">
-          <caret line="363" column="43" selection-start-line="363" selection-start-column="43" selection-end-line="363" selection-end-column="43" />
+        <state relative-caret-position="767">
+          <caret line="528" column="44" lean-forward="true" selection-start-line="528" selection-start-column="44" selection-end-line="528" selection-end-column="44" />
           <folding>
             <element signature="e#199#348#0" />
             <element signature="e#362#429#0" />
@@ -1057,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/docs/two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="283">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
