@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exam Preparation/docs/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/docs/nine.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/docs/nine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam Preparation/scripts/nine.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exam Preparation/scripts/nine.js" afterDir="false" />
-    </list>
+    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -327,7 +322,7 @@
       <workItem from="1548484243414" duration="8871000" />
       <workItem from="1548570302873" duration="20603000" />
       <workItem from="1548670571969" duration="4064000" />
-      <workItem from="1548685805121" duration="3929000" />
+      <workItem from="1548685805121" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -546,11 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548671296636</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Commit on 28.01.2019. Added new code for the rerun.">
+      <created>1548690324793</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1548690324796</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400483000" />
+    <option name="totallyTimeSpent" value="400533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit on 05.01.2019. Added the code for the experiment four." />
     <MESSAGE value="Commit on 05.01.2019. Finished with the first chapter of the Exam Ref Book." />
     <MESSAGE value="Commit on 06.01.2019. Added the code containing arrays and their methods, different document event handlers and their representation." />
     <MESSAGE value="Commit on 07.01.2019. Removed all of the comment symbols from the code and only commented the description for the different blocks of code." />
@@ -691,7 +692,8 @@
     <MESSAGE value="Commit on 26.01.2019. Added code and answer explanations to questions up to 96th. Currently on the 97th." />
     <MESSAGE value="Commit on 28.01.2019. Added code and answer explanations to the missing questions." />
     <MESSAGE value="Commit on 28.01.2019. Added navigation menu to all of the html files in the main docs folder." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit on 28.01.2019. Added navigation menu to all of the html files in the main docs folder." />
+    <MESSAGE value="Commit on 28.01.2019. Added new code for the rerun." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit on 28.01.2019. Added new code for the rerun." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
