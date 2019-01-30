@@ -23,7 +23,7 @@
     </nav>
 </header>
 <br>
-<!--<article>
+<article>
 
     <header>
         <h3>This section covers styling HTML with severe CSS</h3>
@@ -200,29 +200,29 @@
         </div>
     </section>
 
-</article>-->
-    <!--<select id="single">-->
-        <!--<option>Single</option>-->
-        <!--<option>Single2</option>-->
-    <!--</select>-->
+</article>
+    <select id="single">
+        <option>Single</option>
+        <option>Single2</option>
+    </select>
 
-    <!--<select id="multiple" multiple="multiple">-->
-        <!--<option selected="selected">Multiple</option>-->
-        <!--<option>Multiple2</option>-->
-        <!--<option selected="selected">Multiple3</option>-->
-    <!--</select>-->
+    <select id="multiple" multiple="multiple">
+        <option selected="selected">Multiple</option>
+        <option>Multiple2</option>
+        <option selected="selected">Multiple3</option>
+    </select>
     <div id="images"></div>
     <script>
-        // function displayVals() {
-        //     let singleValues = $( "#single" ).val();
-        //     let multipleValues = $( "#multiple" ).val() || [];
-        //
-        //     $( "p" ).html( "<b>Single:</b> " + singleValues +
-        //         " <b>Multiple:</b> " + multipleValues.join( ", " ) );
-        // }
-        //
-        // $( "select" ).change( displayVals );
-        // displayVals();
+        function displayVals() {
+            let singleValues = $( "#single" ).val();
+            let multipleValues = $( "#multiple" ).val() || [];
+
+            $( "p" ).html( "<b>Single:</b> " + singleValues +
+                " <b>Multiple:</b> " + multipleValues.join( ", " ) );
+        }
+
+        $( "select" ).change( displayVals );
+        displayVals();
 
         (function() {
             var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
