@@ -1,5 +1,3 @@
-Exam Preparation Projects for the 70-480 Programming in HTML5 with JavaScript and 
+Exam Preparation Project for the 70-480 Programming in HTML5 with JavaScript and CSS3
 
-CSS3 Microsoft Exam for MCP || MCSD (Microsoft Certified Professional; Microsoft 
-
-Certified Software Developer).
+An exam for MCSA (Microsoft Certified Solutions Associate) certification.
