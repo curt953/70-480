@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="" />
+    <list default="true" id="75ca0ebc-a3af-4a97-96b8-bf870f778207" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,34 +19,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/nine.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
+        <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="243" column="7" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
+            <state relative-caret-position="1053">
+              <caret line="528" column="44" selection-start-line="528" selection-start-column="44" selection-end-line="528" selection-end-column="44" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#199#348#0" />
+                <element signature="e#362#429#0" />
+                <element signature="e#573#722#0" />
+                <element signature="e#736#785#0" />
+                <element signature="e#1036#1094#0" />
+                <element signature="e#1105#1147#0" />
+                <element signature="e#1166#1228#0" />
+                <element signature="e#1239#1281#0" />
+                <element signature="e#1378#1549#0" />
+                <element signature="e#1645#1877#0" />
+                <element signature="e#1941#1961#0" />
+                <element signature="e#1972#1996#0" />
+                <element signature="e#2005#2024#0" />
+                <element signature="e#2415#2476#0" />
+                <element signature="e#3325#3539#0" />
+                <element signature="e#3563#3767#0" />
+                <element signature="e#3835#4085#0" />
+                <element signature="e#4246#4283#0" />
+                <element signature="e#4524#4556#0" />
+                <element signature="e#4579#4608#0" />
+                <element signature="e#4656#4680#0" />
+                <element signature="e#4705#4726#0" />
+                <element signature="e#4856#5096#0" />
+                <element signature="e#5223#5318#0" />
+                <element signature="e#5394#5454#0" />
+                <element signature="e#5470#5538#0" />
+                <element signature="e#5597#5658#0" />
+                <element signature="e#5888#5930#0" />
+                <element signature="e#6099#6141#0" />
+                <element signature="e#6258#6364#0" />
+                <element signature="e#6492#6667#0" />
+                <element signature="e#6742#6917#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -140,10 +153,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1640" />
-    <option name="y" value="-168" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="3860" />
+    <option name="height" value="2132" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,6 +306,8 @@
       <workItem from="1548685805121" duration="3979000" />
       <workItem from="1548765552477" duration="94000" />
       <workItem from="1548773900233" duration="38000" />
+      <workItem from="1549478062103" duration="590000" />
+      <workItem from="1551512152671" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Commit on 13.12.2018. Changed the .css file to .scss and added a new script file.">
       <created>1544681479817</created>
@@ -536,7 +551,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400665000" />
+    <option name="totallyTimeSpent" value="401300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,13 +563,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-312" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="3221" height="1778" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" order="0" show_stripe_button="false" sideWeight="0.50060755" side_tool="true" weight="0.3299589" />
       <window_info id="Structure" order="1" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.49939248" weight="0.3299589" />
       <window_info id="npm" order="3" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.4974359" weight="0.078542255" />
       <window_info id="Version Control" order="5" sideWeight="0.50256413" side_tool="true" weight="0.2365648" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32887402" />
@@ -998,10 +1014,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/three.js" />
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/package.json" />
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/nine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="243" column="7" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/two.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6187">
-          <caret line="497" lean-forward="true" selection-start-line="497" selection-end-line="497" />
+        <state relative-caret-position="1053">
+          <caret line="528" column="44" selection-start-line="528" selection-start-column="44" selection-end-line="528" selection-end-column="44" />
           <folding>
             <element signature="e#199#348#0" />
             <element signature="e#362#429#0" />
@@ -1035,57 +1086,6 @@
             <element signature="e#6258#6364#0" />
             <element signature="e#6492#6667#0" />
             <element signature="e#6742#6917#0" />
-            <element signature="e#6999#7229#0" />
-            <element signature="e#8329#8438#0" />
-            <element signature="e#8479#8665#0" />
-            <element signature="e#8699#8728#0" />
-            <element signature="e#8805#8981#0" />
-            <element signature="e#8997#9173#0" />
-            <element signature="e#9274#9319#0" />
-            <element signature="e#9431#9713#0" />
-            <element signature="e#10007#10316#0" />
-            <element signature="e#10446#10470#0" />
-            <element signature="e#10585#10658#0" />
-            <element signature="e#10744#10783#0" />
-            <element signature="e#10869#10908#0" />
-            <element signature="e#11191#11242#0" />
-            <element signature="e#11532#11581#0" />
-            <element signature="e#11669#11795#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/rerun/scripts/three.js" />
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/package.json" />
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/scripts/nine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exam Preparation/docs/nine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="243" column="7" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
